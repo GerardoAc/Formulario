@@ -2,10 +2,10 @@ D:\Documents\GitHub\Formulario\Formulario\Formulario\bin\Debug\Formulario.exe.co
 D:\Documents\GitHub\Formulario\Formulario\Formulario\bin\Debug\Formulario.exe
 D:\Documents\GitHub\Formulario\Formulario\Formulario\bin\Debug\Formulario.pdb
 D:\Documents\GitHub\Formulario\Formulario\Formulario\obj\Debug\Formulario.csprojAssemblyReference.cache
-D:\Documents\GitHub\Formulario\Formulario\Formulario\obj\Debug\Formulario.LoginForm.resources
 D:\Documents\GitHub\Formulario\Formulario\Formulario\obj\Debug\Formulario.Properties.Resources.resources
 D:\Documents\GitHub\Formulario\Formulario\Formulario\obj\Debug\Formulario.csproj.GenerateResource.cache
 D:\Documents\GitHub\Formulario\Formulario\Formulario\obj\Debug\Formulario.exe
 D:\Documents\GitHub\Formulario\Formulario\Formulario\obj\Debug\Formulario.pdb
-D:\Documents\GitHub\Formulario\Formulario\Formulario\obj\Debug\Formulario.CuentasPorCobrarForm.resources
 C:\Users\116590961\Documents\GitHub\Formulario\Formulario\Formulario\obj\Debug\Formulario.DashboardForm.resources
+D:\Documents\GitHub\Formulario\Formulario\Formulario\obj\Debug\Formulario.DashboardForm.resources
+D:\Documents\GitHub\Formulario\Formulario\Formulario\obj\Debug\Formulario.LoginForm.resources

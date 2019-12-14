@@ -125,7 +125,9 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "LoginForm";
             this.Text = "Bienvenido al sistema";
-            this.Load += new System.EventHandler(this.LoginForm_Load);
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.LoginForm_FormClosing);
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.LoginForm_FormClosed);
+            
             ((System.ComponentModel.ISupportInitialize)(this.LoginErrorProvider)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

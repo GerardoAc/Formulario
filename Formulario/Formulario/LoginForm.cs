@@ -12,34 +12,86 @@ namespace Formulario
 {
     public partial class LoginForm : Form
     {
+
+        Usuario usuario=new Usuario();
+        private List<Usuario> listaUsuarios;
+
+        internal List<Usuario> ListaUsuarios
+        { get => listaUsuarios; set => listaUsuarios = value; }
+
         public LoginForm()
         {
             InitializeComponent();
-    
+
         }
 
-        private void LoginForm_Load(object sender, EventArgs e)
+        void ValidarUsuario()
         {
-         
-        }
+            foreach (Usuario s in listaUsuarios)
+            {
+                if (UsuarioTxt.Text == s.Nombre)
+                {
+                    usuario = s;
+                }
+            }
 
+        }
+               
+
+        
+        public Object RetornarUsuarioLogueado()
+        {
+            return usuario;
+        }
         private void AceptarBtn_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Boton acceptar");
+            
             if (UsuarioTxt.TextLength == 0)
             {
                 LoginErrorProvider.SetError(UsuarioTxt, "Falta Nombre Usuario");
             }
-            if (ContraseñaTxt.TextLength == 0) {
+            else
+            {
 
-                LoginErrorProvider.SetError(ContraseñaTxt, "Falta Contraseña Usuario");
+                if (ContraseñaTxt.TextLength == 0)
+                {
+
+                    LoginErrorProvider.SetError(ContraseñaTxt, "Falta Contraseña Usuario");
+                }
+                else
+                {
+                    ValidarUsuario();
+                    
+                    if (UsuarioTxt.Text== usuario.Nombre)
+                    {
+                       
+                        if (ContraseñaTxt.Text == usuario.Contrasenna)
+                        {
+                            DialogResult = DialogResult.OK;
+                            this.Close();
+                        }
+                        else { MessageBox.Show("Contraseña incorrecta"); }
+
+                    }
+                    else { MessageBox.Show("Usuario incorrecto"); }
+                }
+                
             }
-            
         }
 
         private void CancelarBtn_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Boton Salir");
+        }
+
+        private void LoginForm_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            
+        }
+
+        private void LoginForm_FormClosing(object sender, FormClosingEventArgs e)
+        {
+           
         }
     }
 }
