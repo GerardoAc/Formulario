@@ -75,12 +75,14 @@
             // 
             // CancelarBtn
             // 
+            this.CancelarBtn.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.CancelarBtn.Location = new System.Drawing.Point(66, 178);
             this.CancelarBtn.Name = "CancelarBtn";
             this.CancelarBtn.Size = new System.Drawing.Size(75, 23);
             this.CancelarBtn.TabIndex = 4;
             this.CancelarBtn.Text = "Cancelar";
             this.CancelarBtn.UseVisualStyleBackColor = true;
+            this.CancelarBtn.Click += new System.EventHandler(this.CancelarBtn_Click);
             // 
             // AceptarBtn
             // 
