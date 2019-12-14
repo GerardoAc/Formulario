@@ -19,7 +19,21 @@ namespace Formulario
 
         private void LoginForm_Load(object sender, EventArgs e)
         {
+         
+        }
 
+        private void AceptarBtn_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Soy DIOS");
+            if (UsuarioTxt.TextLength == 0)
+            {
+                LoginErrorProvider.SetError(UsuarioTxt, "Falta Nombre Usuario");
+            }
+            if (ContraseñaTxt.TextLength == 0) {
+
+                LoginErrorProvider.SetError(ContraseñaTxt, "Falta Contraseña Usuario");
+            }
+            
         }
     }
 }
