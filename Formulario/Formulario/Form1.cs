@@ -10,11 +10,30 @@ using System.Windows.Forms;
 
 namespace Formulario
 {
-    public partial class Form1 : Form
+    public partial class LoginForm : Form
     {
-        public Form1()
+        public LoginForm()
         {
             InitializeComponent();
+        }
+
+        private void LoginForm_Load(object sender, EventArgs e)
+        {
+         
+        }
+
+        private void AceptarBtn_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Soy DIOS");
+            if (UsuarioTxt.TextLength == 0)
+            {
+                LoginErrorProvider.SetError(UsuarioTxt, "Falta Nombre Usuario");
+            }
+            if (ContraseñaTxt.TextLength == 0) {
+
+                LoginErrorProvider.SetError(ContraseñaTxt, "Falta Contraseña Usuario");
+            }
+            
         }
     }
 }

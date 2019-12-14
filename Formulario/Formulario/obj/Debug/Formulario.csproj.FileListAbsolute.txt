@@ -1,0 +1,9 @@
+C:\Users\116590961\Documents\GitHub\Formulario\Formulario\Formulario\bin\Debug\Formulario.exe.config
+C:\Users\116590961\Documents\GitHub\Formulario\Formulario\Formulario\bin\Debug\Formulario.exe
+C:\Users\116590961\Documents\GitHub\Formulario\Formulario\Formulario\bin\Debug\Formulario.pdb
+C:\Users\116590961\Documents\GitHub\Formulario\Formulario\Formulario\obj\Debug\Formulario.csprojAssemblyReference.cache
+C:\Users\116590961\Documents\GitHub\Formulario\Formulario\Formulario\obj\Debug\Formulario.LoginForm.resources
+C:\Users\116590961\Documents\GitHub\Formulario\Formulario\Formulario\obj\Debug\Formulario.Properties.Resources.resources
+C:\Users\116590961\Documents\GitHub\Formulario\Formulario\Formulario\obj\Debug\Formulario.csproj.GenerateResource.cache
+C:\Users\116590961\Documents\GitHub\Formulario\Formulario\Formulario\obj\Debug\Formulario.exe
+C:\Users\116590961\Documents\GitHub\Formulario\Formulario\Formulario\obj\Debug\Formulario.pdb
