@@ -7,3 +7,4 @@ C:\Users\116590961\Documents\GitHub\Formulario\Formulario\Formulario\obj\Debug\F
 C:\Users\116590961\Documents\GitHub\Formulario\Formulario\Formulario\obj\Debug\Formulario.csproj.GenerateResource.cache
 C:\Users\116590961\Documents\GitHub\Formulario\Formulario\Formulario\obj\Debug\Formulario.exe
 C:\Users\116590961\Documents\GitHub\Formulario\Formulario\Formulario\obj\Debug\Formulario.pdb
+C:\Users\116590961\Documents\GitHub\Formulario\Formulario\Formulario\obj\Debug\Formulario.DashboardForm.resources

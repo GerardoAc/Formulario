@@ -15,6 +15,7 @@ namespace Formulario
         public LoginForm()
         {
             InitializeComponent();
+    
         }
 
         private void LoginForm_Load(object sender, EventArgs e)
@@ -24,7 +25,7 @@ namespace Formulario
 
         private void AceptarBtn_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Soy DIOS");
+            MessageBox.Show("Boton acceptar");
             if (UsuarioTxt.TextLength == 0)
             {
                 LoginErrorProvider.SetError(UsuarioTxt, "Falta Nombre Usuario");
@@ -34,6 +35,11 @@ namespace Formulario
                 LoginErrorProvider.SetError(ContraseñaTxt, "Falta Contraseña Usuario");
             }
             
+        }
+
+        private void CancelarBtn_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Boton Salir");
         }
     }
 }
